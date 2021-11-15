@@ -1,4 +1,36 @@
+.site-list-content {
+  margin-bottom: 3rem;
+}
+
+.list-header {
+  width: 100rem;
+}
+
 .site-list {
   list-style: none;
-  width: 80%;
+  width: 100rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.list-header {
+  font-size: 3rem;
+  color: white;
+}
+
+.open-button {
+  background-color: transparent;
+  color: white;
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.open-button-icon {
+  font-size: 2.5rem;
+}
+
+.hidden {
+  display: none;
+}
+

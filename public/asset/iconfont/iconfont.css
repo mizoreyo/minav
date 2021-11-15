@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1636718850359') format('truetype');
+  src: url('iconfont.ttf?t=1636965752821') format('truetype');
 }
 
 .iconfont {
@@ -13,5 +13,17 @@
 
 .icon-search:before {
   content: "\e6ac";
+}
+
+.icon-arrowdown:before {
+  content: "\e6b6";
+}
+
+.icon-angle-right:before {
+  content: "\e844";
+}
+
+.icon-angle-down:before {
+  content: "\e845";
 }
 

@@ -1,35 +1,37 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import Site from "./Site"
 import './index.css'
 
 export default class SiteList extends Component {
   state = {
-    siteList: []
+    listFolded: false
   }
 
-  componentDidMount() {
-    axios.get('/config.json')
-      .then((response) => {
-        this.setState({
-          siteList: response.data.siteList
-        })
-      })
-      .catch((error) => {
-        console.error(error)
-      })
+  handleFold = () => {
+    this.setState({
+      listFolded: !this.state.listFolded
+    })
   }
 
   render() {
-    const {siteList} =this.state
+    const { listFolded } = this.state
+    const { classfyName,siteList } = this.props.classfy
     return (
-      <ul className='site-list'>
-        {
-          siteList.map((site,index) => {
-            return <Site key={index} site={site} />
-          })
-        }
-      </ul>
+      <div className='site-list-content'>
+        <div className='list-header'>
+          <button className='open-button' onClick={this.handleFold}>
+            <i className={`iconfont open-button-icon ${listFolded ? 'icon-angle-right' : 'icon-angle-down'}`}></i>
+          </button>
+          <span>{classfyName}</span>
+        </div>
+        <ul className={`site-list ${listFolded ? 'hidden' : ''}`}>
+          {
+            siteList.map((site, index) => {
+              return <Site key={index} site={site} />
+            })
+          }
+        </ul>
+      </div>
     )
   }
 }

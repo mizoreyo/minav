@@ -11,6 +11,27 @@
       "font_class": "search",
       "unicode": "e6ac",
       "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "294496",
+      "name": "arrow-down",
+      "font_class": "arrowdown",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "25684811",
+      "name": "angle-right",
+      "font_class": "angle-right",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    },
+    {
+      "icon_id": "25684839",
+      "name": "angle-down",
+      "font_class": "angle-down",
+      "unicode": "e845",
+      "unicode_decimal": 59461
     }
   ]
 }
