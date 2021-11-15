@@ -13,3 +13,10 @@ html {
 body {
   background-color: rgb(109, 197, 238);
 }
+
+.main-body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+{
+  "siteList": [
+    {
+      "siteName": "Mizore",
+      "siteUrl": "https://mizore.site",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/mizoreyo/static/avatar.jpg"
+    },
+    {
+      "siteName": "React官方中文文档",
+      "siteUrl": "https://react.docschina.org/",
+      "iconUrl": "https://react.docschina.org/favicon.ico"
+    },
+    {
+      "siteName": "React官方中文文档",
+      "siteUrl": "https://react.docschina.org/",
+      "iconUrl": "https://react.docschina.org/favicon.ico"
+    },
+    {
+      "siteName": "React官方中文文档",
+      "siteUrl": "https://react.docschina.org/",
+      "iconUrl": "https://react.docschina.org/favicon.ico"
+    },
+    {
+      "siteName": "React官方中文文档",
+      "siteUrl": "https://react.docschina.org/",
+      "iconUrl": "https://react.docschina.org/favicon.ico"
+    }
+  ]
+}
