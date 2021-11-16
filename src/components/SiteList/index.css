@@ -1,14 +1,15 @@
 .site-list-content {
   margin-bottom: 3rem;
+  width: 100rem;
 }
 
 .list-header {
-  width: 100rem;
+  width: 100%;
 }
 
 .site-list {
   list-style: none;
-  width: 100rem;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,4 +35,10 @@
 .hidden {
   display: none;
 }
+
+
+
+
+
+
 
