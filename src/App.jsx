@@ -5,7 +5,7 @@ import SiteList from './components/SiteList'
 import './App.css'
 
 export default class App extends Component {
-  state={
+  state = {
     searchEngine: "baidu",
     classfyList: []
   }
@@ -13,9 +13,11 @@ export default class App extends Component {
   componentDidMount() {
     axios.get('/config.json')
       .then((response) => {
+        const { background, classfyList, searchEngine } = response.data
+        document.body.style.backgroundImage = `url("${background}")`
         this.setState({
-          classfyList: response.data.classfyList,
-          searchEngine: response.data.searchEngine
+          classfyList: classfyList,
+          searchEngine: searchEngine
         })
       })
       .catch((error) => {
@@ -24,12 +26,12 @@ export default class App extends Component {
   }
 
   render() {
-    const {searchEngine,classfyList}=this.state
+    const { searchEngine, classfyList } = this.state
     return (
       <div className='main-body'>
         <Search searchEngine={searchEngine} />
         {
-          classfyList.map((classfy,index) => {
+          classfyList.map((classfy, index) => {
             return <SiteList classfy={classfy} key={index} />
           })
         }

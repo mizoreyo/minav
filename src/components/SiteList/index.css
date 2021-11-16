@@ -15,19 +15,20 @@
 }
 
 .list-header {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
 }
 
 .open-button {
   background-color: transparent;
   color: white;
-  margin-right: 0.8rem;
+  margin-right: 0.5rem;
+  margin-left: 2rem;
   cursor: pointer;
 }
 
 .open-button-icon {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
 }
 
 .hidden {

@@ -12,6 +12,8 @@ html {
 
 body {
   background-color: rgb(109, 197, 238);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .main-body {
