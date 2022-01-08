@@ -11,204 +11,59 @@
           "iconUrl": "https://react.docschina.org/favicon.ico"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "微信开放文档",
+          "siteUrl": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/mizoreyo/static//images/202111161602033.png"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "印记中文",
+          "siteUrl": "https://cdn.docschina.org/",
+          "iconUrl": "https://cdn.docschina.org/static/media/docschina-logo.4c5554f1.svg"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "网道-互联网开发文档",
+          "siteUrl": "https://wangdoc.com/",
+          "iconUrl": "https://wangdoc.com/assets/icons/android-icon-192x192.png"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "MDN Web Docs",
+          "siteUrl": "https://developer.mozilla.org/zh-CN/docs/Web",
+          "iconUrl": "https://developer.mozilla.org/favicon-192x192.png"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "那些免费的砖",
+          "siteUrl": "https://www.thosefree.com/",
+          "iconUrl": "https://www.thosefree.com/wp-content/themes/thosefree/images/logo.png"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "Ant Design",
+          "siteUrl": "https://ant.design/docs/react/introduce-cn",
+          "iconUrl": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "iconfont-阿里巴巴矢量图标库",
+          "siteUrl": "https://www.iconfont.cn/",
+          "iconUrl": "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "BootCDN",
+          "siteUrl": "https://www.bootcdn.cn/",
+          "iconUrl": "https://www.bootcdn.cn/assets/ico/apple-touch-icon-144-precomposed.png?1630383794125"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "Google Fonts",
+          "siteUrl": "https://fonts.google.com/",
+          "iconUrl": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "Node.js中文网",
+          "siteUrl": "http://nodejs.cn/learn",
+          "iconUrl": "https://nodejs.org/static/images/favicons/apple-touch-icon.png"
         },
         {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        }
-      ]
-    },
-    {
-      "classfyName": "后端",
-      "siteList": [
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        }
-      ]
-    },
-    {
-      "classfyName": "收藏",
-      "siteList": [
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
-        },
-        {
-          "siteName": "React官方中文文档",
-          "siteUrl": "https://react.docschina.org/",
-          "iconUrl": "https://react.docschina.org/favicon.ico"
+          "siteName": "jsDelivr",
+          "siteUrl": "https://www.jsdelivr.com/",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/mizoreyo/static/images/202111161647001.png"
         }
       ]
     }
