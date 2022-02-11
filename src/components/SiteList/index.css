@@ -1,6 +1,11 @@
 .site-list-content {
   margin-bottom: 3rem;
   width: 100rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: height 0.5s;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .list-header {
@@ -17,15 +22,22 @@
 
 .list-header {
   font-size: 2rem;
-  color: white;
+  color: #000;
+  display: flex;
+  align-items: center;
 }
 
 .open-button {
   background-color: transparent;
-  color: white;
+  color: #000;
   margin-right: 0.5rem;
   margin-left: 2rem;
   cursor: pointer;
+}
+
+.list-header span {
+  display: block;
+  height: 3.2rem;
 }
 
 .open-button-icon {
@@ -35,6 +47,7 @@
 .hidden {
   display: none;
 }
+
 
 
 

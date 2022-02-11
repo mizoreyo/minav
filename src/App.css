@@ -1,9 +1,11 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
   border: none;
+  font-family: Noto Sans SC;
 }
 
 html {
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background-color: rgb(109, 197, 238);
+  background-color: rgb(240, 240, 240);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -21,6 +23,10 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 @media screen and (max-width:1000px){

@@ -4,7 +4,7 @@ import './index.css'
 export default class Search extends Component {
 
   handleSearch = () => {
-    const {searchEngine}=this.props
+    const { searchEngine } = this.props
     const { value } = this.searchNode
     switch (searchEngine) {
       case 'baidu': {
@@ -21,8 +21,8 @@ export default class Search extends Component {
     }
   }
 
-  handleEnterKey=(event) => {
-    if(event.key==='Enter') {
+  handleEnterKey = (event) => {
+    if (event.key === 'Enter') {
       this.handleSearch()
     }
   }
@@ -30,7 +30,10 @@ export default class Search extends Component {
   render() {
     return (
       <div className="search">
-        <input onKeyUp={this.handleEnterKey} className="search-input" type="text" placeholder="Search..." ref={node => this.searchNode = node} />
+        <div className="search-input-content">
+          <input onKeyUp={this.handleEnterKey} className='search-input' type="text" placeholder="Minav Search" ref={node => this.searchNode = node} />
+          <hr className='underline' />
+        </div>
         <button onClick={this.handleSearch} className="search-button">
           <i className="iconfont icon-search"></i>
         </button>
