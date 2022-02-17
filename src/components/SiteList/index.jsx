@@ -33,8 +33,8 @@ export default class SiteList extends Component {
       targetHeight = Math.ceil(dataNum / 6) * 120 + 52
     } else if (width === 500) {
       targetHeight = Math.ceil(dataNum / 4) * 120 + 52
-    } else if (width === 250) {
-      targetHeight = Math.ceil(dataNum / 2) * 120 + 52
+    } else if (width < 500) {
+      targetHeight = Math.ceil(dataNum / 4) * width * 0.25 + 52
     }
     if (targetHeight !== this.state.unfoldHeight) {
       this.setState({
