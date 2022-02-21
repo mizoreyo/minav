@@ -10,6 +10,7 @@
 
 .list-header {
   width: 100%;
+  cursor: pointer;
 }
 
 .site-list {

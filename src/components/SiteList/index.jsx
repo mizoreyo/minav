@@ -66,8 +66,8 @@ export default class SiteList extends Component {
     const { classfyName, siteList } = this.props.classfy
     return (
       <div ref={node => { this.siteListContentNode = node }} className='site-list-content'>
-        <div className='list-header'>
-          <button className='open-button' onClick={this.handleFold}>
+        <div className='list-header' onClick={this.handleFold}>
+          <button className='open-button' >
             <i className={`iconfont open-button-icon ${listFolded ? 'icon-angle-right' : 'icon-angle-down'}`}></i>
           </button>
           <span>{classfyName}</span>

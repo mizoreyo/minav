@@ -3,6 +3,26 @@ import './index.css'
 
 export default class Search extends Component {
 
+  state = {
+    isScrolled: false
+  }
+
+  componentDidMount() {
+    window.onscroll = () => {
+      let scrollDistance = document.documentElement.scrollTop
+      console.log("滚动=" + scrollDistance)
+      if (scrollDistance > 0) {
+        this.setState({
+          isScrolled: true
+        })
+      } else {
+        this.setState({
+          isScrolled: false
+        })
+      }
+    }
+  }
+
   handleSearch = () => {
     const { searchEngine } = this.props
     const { value } = this.searchNode
@@ -28,8 +48,9 @@ export default class Search extends Component {
   }
 
   render() {
+    const { isScrolled } = this.state
     return (
-      <div className="search">
+      <div className={`${isScrolled ? 'scrolled' : ''} search`}>
         <div className="search-input-content">
           <input onKeyUp={this.handleEnterKey} className='search-input' type="text" placeholder="Minav Search" ref={node => this.searchNode = node} />
           <hr className='underline' />

@@ -8,8 +8,12 @@
   overflow: hidden;
   padding-left: 2.2rem;
   align-items: center;
-  margin-top: 20rem;
-  margin-bottom: 15rem;
+  margin: 37.5rem 0;
+  transition:margin 0.5s;
+}
+
+.scrolled {
+  margin-bottom: 10rem;
 }
 
 .search-input-content {
