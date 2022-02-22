@@ -49,8 +49,12 @@ export default class Search extends Component {
 
   render() {
     const { isScrolled } = this.state
+    const height = document.documentElement.clientHeight
+    console.log('高度' + height);
     return (
-      <div className={`${isScrolled ? 'scrolled' : ''} search`}>
+      <div className={`${isScrolled ? 'scrolled' : ''} search`} style={isScrolled ? { marginTop : (height - 50) / 2} : { margin: (height - 50) / 2
+  }
+}>
         <div className="search-input-content">
           <input onKeyUp={this.handleEnterKey} className='search-input' type="text" placeholder="Minav Search" ref={node => this.searchNode = node} />
           <hr className='underline' />
@@ -58,7 +62,7 @@ export default class Search extends Component {
         <button onClick={this.handleSearch} className="search-button">
           <i className="iconfont icon-search"></i>
         </button>
-      </div>
+      </div >
     )
   }
 }
